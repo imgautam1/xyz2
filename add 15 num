@@ -1,0 +1,11 @@
+sum_first_15 = 0
+for i in range(1, 16):
+  sum_first_15 += i
+print(f"Sum of the first 15 numbers: {sum_first_15}")
+
+sum_any_15 = 0
+print("Enter 15 numbers:")
+for i in range(15):
+  num = int(input(f"Enter number {i+1}: "))
+  sum_any_15 += num
+print(f"Sum of the 15 entered numbers: {sum_any_15}")
